@@ -3,6 +3,18 @@ export async function GET(request: Request) {
   const users = [
     { id: 1, name: "Alice" },
     { id: 2, name: "Bob" },
+    { id: 3, name: "Alice" },
+    { id: 4, name: "Bob" },
+    { id: 5, name: "Alice" },
+    { id: 6, name: "Bob" },
+    { id: 7, name: "Alice" },
+    { id: 8, name: "Bob" },
+    { id: 9, name: "Alice" },
+    { id: 10, name: "Bob" },
+    { id: 11, name: "Alice" },
+    { id: 12, name: "Bob" },
+    { id: 13, name: "Alice" },
+    { id: 14, name: "Bob" },
   ];
   return new Response(JSON.stringify(users), {
     status: 200,
